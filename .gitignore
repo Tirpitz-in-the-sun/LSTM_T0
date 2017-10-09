@@ -1,29 +1,50 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+﻿# C++目录
+ipch/
+Release/
+Debug/
+h5_log/
 
-# C extensions
-*.so
+# pycharm 配置文件
+.idea/
 
+# CSV 本地下载的文件
+csv/
+*.csv
+
+# 配置文件
+*.ini
+
+*.opensdf
+*.sdf
+*.suo
+*.exp
+*.pdb
+*.cd
+
+# Python编译文件
+*.pyc
 # Distribution / packaging
 .Python
 env/
 build/
+dayk/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
-lib/
+pool/
+
+# lib/
 lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+config.ini
+*.ini
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -31,71 +52,26 @@ wheels/
 *.manifest
 *.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# 账号配置文件
+account.ini
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# API锟斤拷.con锟侥硷拷
+*.con
 
-# Translations
-*.mo
-*.pot
+# visual studio
 
-# Django stuff:
+*.tlog
 *.log
-local_settings.py
 
-# Flask stuff:
-instance/
-.webassets-cache
+# 不想同步的
+*.dump
+*.vssettings
+*.klg
+*.lkc
+*.npy
 
-# Scrapy stuff:
-.scrapy
+# tf的模型数据
+*.meta
+*.index
+*.data-00000-of-00001
 
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# dotenv
-.env
-
-# virtualenv
-.venv
-venv/
-ENV/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
